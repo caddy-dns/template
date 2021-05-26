@@ -8,7 +8,7 @@ import (
 	libdnstemplate "github.com/libdns/template"
 )
 
-// Provider wraps the provider implementation as a Caddy module.
+// Provider lets Caddy read and manipulate DNS records hosted by this DNS provider.
 type Provider struct{ *libdnstemplate.Provider }
 
 func init() {
