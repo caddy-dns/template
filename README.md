@@ -1,11 +1,16 @@
-**DEVELOPER INSTRUCTIONS:**
+DEVELOPER INSTRUCTIONS:
+=======================
 
 - Update module name in go.mod
-- Update dependencies to latest versions
+- Update dependencies to latest versions (**EXCEPT `caddy/v2` ITSELF**)
 - Update name and year in license
 - Customize configuration and Caddyfile parsing
 - Update godocs / comments (especially provider name and nuances)
 - Update README and remove this section
+
+Thank you for maintaining your Caddy plugin!
+
+_Remove this section before publishing._
 
 ---
 
